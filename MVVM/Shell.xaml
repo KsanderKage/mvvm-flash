@@ -1,0 +1,8 @@
+﻿<Window x:Class="MVVM.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Shell" Height="350" Width="525">
+    <Grid>
+        <ContentControl Content="{Binding CurrentView, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+    </Grid>
+</Window>
